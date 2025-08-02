@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/icon.png" alt="taisuco-icon" width="64">
+  <img src="./public/icon/icon-128.png" alt="taisuco-icon" width="64">
 </div>
 
 # 🕒たいすこ (taisuco)

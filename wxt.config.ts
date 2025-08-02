@@ -4,9 +4,8 @@ export default defineConfig({
   manifest: {
     name: "🕒たいすこ",
     description: "YouTube のタイムスタンプ付きコメントをサイドバー上部にまとめて表示する拡張機能",
-    default_locale: "ja",
     icons: {
-      "128": "assets/icon.png"
+      "128": "icon/icon-128.png"
     },
     action: {
       default_title: "たいすこ"

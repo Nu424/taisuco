@@ -2,7 +2,7 @@
   "name": "taisuco",
   "description": "YouTubeのタイムスタンプ付きコメントをリストで表示して、見やすくするChrome拡張機能です。",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
     "dev": "wxt",
