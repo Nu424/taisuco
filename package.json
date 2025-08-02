@@ -1,8 +1,8 @@
 {
-  "name": "wxt-react-starter",
-  "description": "manifest.json description",
+  "name": "taisuco",
+  "description": "YouTubeのタイムスタンプ付きコメントをリストで表示して、見やすくするChrome拡張機能です。",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "wxt",
