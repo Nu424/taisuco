@@ -1,42 +1,29 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.popup-container {
+  min-width: 260px;
+  max-width: 360px;
+  padding: 1.5rem;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   text-align: center;
+  color: #242424;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #54bc4ae0);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.extension-name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tagline {
+  font-size: 0.9rem;
+  margin: 0 0 1rem 0;
+  color: #555;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.steps {
+  list-style: decimal inside;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  font-size: 0.8rem;
+  line-height: 1.4;
 }
