@@ -1,6 +1,16 @@
 import { defineConfig } from 'wxt';
 
-// See https://wxt.dev/api/config.html
 export default defineConfig({
-  modules: ['@wxt-dev/module-react'],
+  manifest: {
+    name: "🕒たいすこ",
+    description: "YouTube のタイムスタンプ付きコメントをサイドバー上部にまとめて表示する拡張機能",
+    default_locale: "ja",
+    icons: {
+      "128": "assets/icon.png"
+    },
+    action: {
+      default_title: "たいすこ"
+    }
+  },
+  modules: ["@wxt-dev/module-react"],
 });
